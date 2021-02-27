@@ -19,7 +19,7 @@ function getViewBox(
 ) {
   const map = {
     [BOTTOM]: `0 ${-borderWidth} ${sizeB} ${sizeA}`,
-    [TOP]: `0 0 ${sizeB} ${sizeA + borderWidth}`,
+    [TOP]: `0 0 ${sizeB} ${sizeA}`,
     [RIGHT]: `${-borderWidth} 0 ${sizeA} ${sizeB}`,
     [LEFT]: `0 0 ${sizeA + borderWidth} ${sizeB}`
   };
